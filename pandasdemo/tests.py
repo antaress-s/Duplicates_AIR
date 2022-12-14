@@ -37,7 +37,7 @@ class ViewsTestCase(TestCase):
 
 
 
-class HtmlApiTest(APITestCase):
+class ApiTest(APITestCase):
     def test_response_fine_1(self):
         url = reverse('api')
         response = self.client.get(url)
